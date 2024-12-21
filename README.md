@@ -1,5 +1,5 @@
 # ONT_homopolymer_screen
-Identify regions in nucleic acid sequences which may coincide with sequencing artifacts and contribute toward incorrect interpretations. It was originally written with nanopore sequencing in mind, but other platforms have historically had issues with homopolymers. Additionally, biologically synthesized sequences may be more likely to change between replication cycles.
+Identify regions in nucleic acid sequences which may coincide with sequencing artifacts and contribute toward incorrect interpretations. This script was originally written with nanopore sequencing in mind, but other platforms have historically had issues with homopolymers. Additionally, biologically synthesized sequences may be more likely to change between replication cycles.
 
 # ONT Problematic Regions Detection Tutorial
 
