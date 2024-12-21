@@ -1,6 +1,8 @@
 # ONT_homopolymer_screen
 Identify regions in nucleic acid sequences which may coincide with sequencing artifacts and contribute toward incorrect interpretations. This script was originally written with nanopore sequencing in mind, but other platforms have historically had issues with homopolymers. Additionally, repetitive sequences may be more likely to change between replication cycles.
 
+Related tool: [telomere-finder.py](https://github.com/GenerGener/telomere)
+
 # ONT Problematic Regions Detection Tutorial
 
 This tutorial demonstrates how to use the ONT problematic regions detection script "ont-problems.py" to identify potentially problematic sequences for Oxford Nanopore Technologies (ONT) sequencing, including homopolymers, repeats, and user-defined k-mers.
