@@ -5,7 +5,7 @@ Related tool: [telomere-finder.py](https://github.com/GenerGener/telomere)
 
 # ONT Problematic Regions Detection Tutorial
 
-This tutorial demonstrates how to use the ONT problematic regions detection script "ont-problems.py" to identify potentially problematic sequences for Oxford Nanopore Technologies (ONT) sequencing, including homopolymers, repeats, and user-defined k-mers.
+This tutorial demonstrates how to use the ONT problematic regions detection script "ont-problems.py" to identify potentially problematic sequences for Oxford Nanopore Technologies (ONT) sequencing, including homopolymers, repeats, and user-defined k-mers. ONT wet and dry lab development has advanced at a rapid pace. This repo is designed to be used to help inform analyces on legacy ONT datasets, and to provide users with regions to prioritize during standard bioinformatics workflows.
 
 Note as this tool may be under continued development, exact naming and usage might change. Usage should be based on user preference/local running environment.
 
