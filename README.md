@@ -55,7 +55,7 @@ python ont_problems.py --input demo-genome.fasta --output-prefix results/demo
 This will:
 1. Identify homopolymers and repeats
 2. Find default k-mers (6-mers and 7-mers)
-3. Generate BED, CSV, and metadata files
+3. Generate BED*, CSV, and metadata files *TODO check BED/GTF/GFF; check basing as in telomere-finder
 
 ## Advanced Usage
 
