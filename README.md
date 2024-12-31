@@ -19,6 +19,7 @@ cd ont-problems
 # Install required packages
 pip install biopython pandas
 ```
+TODO update with current repo name
 
 ## Input Data
 
