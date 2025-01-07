@@ -114,7 +114,7 @@ def write_gff_file(regions: List[Dict], output_path: str):
             attributes = f"ID={region.get('type', 'kmer')}_{region['start']};"\
                         f"Sequence={region.get('sequence', region.get('kmer', ''))}"
             f.write(f"{region['contig']}\tONT_problems\t{region.get('type', 'kmer')}\t"
-                   f"{region['start'] + 1}\t{region['end']}\t.\t"
+                   f"{region['start'] + 1}\t{region['end'] + 1}\t.\t"
                    f"{'+' if not region.get('is_reverse', False) else '-'}\t.\t{attributes}\n")
 
 def write_gtf_file(regions: List[Dict], output_path: str):
@@ -123,7 +123,7 @@ def write_gtf_file(regions: List[Dict], output_path: str):
         for region in regions:
             attributes = f"sequence \"{region.get('sequence', region.get('kmer', ''))}\";"
             f.write(f"{region['contig']}\tONT_problems\t{region.get('type', 'kmer')}\t"
-                   f"{region['start'] + 1}\t{region['end']}\t.\t"
+                   f"{region['start'] + 1}\t{region['end'] + 1}\t.\t"
                    f"{'+' if not region.get('is_reverse', False) else '-'}\t.\t{attributes}\n")
 
 def process_sequences(file_path: str, k_lengths: List[int], output_format: str = 'bed'):
